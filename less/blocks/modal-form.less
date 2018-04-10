@@ -1,0 +1,98 @@
+.modal-form {
+	position: absolute;
+	top: 80px;
+
+	display: none;
+	width: 100%;
+	min-width: 320px;
+
+
+	background-color: #f8f8f8;
+	background-size: contain;
+
+	z-index: 4;
+}
+
+.modal-form--show {
+	display: block;
+}
+
+.modal-form__wrap {
+	margin: 0 9.375%;
+	padding-top: 40px;
+}
+
+.modal-form__login-message {
+	display: block;
+}
+
+.modal-form__title {
+	margin: 0;
+	margin-bottom: 20px;
+
+	font-size: 24px;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.modal-form__descr {
+	margin: 0;
+	margin-bottom: 20px;
+
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.modal-form__login-name,
+.modal-form__login-contacts,
+.modal-form__login-subject,
+.modal-form__login-message {
+	box-sizing: border-box;
+	width: 100%;
+	min-width: 260px;
+	height: 48px;
+	margin-bottom: 10px;
+	padding: 20px;
+
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 16px;
+	color: #000;
+
+	border: 1px solid #e0e0e0;
+}
+
+.modal-form__login-name::placeholder,
+.modal-form__login-contacts::placeholder,
+.modal-form__login-subject::placeholder,
+.modal-form__login-message::placeholder {
+	color: #999;
+}
+
+.modal-form__login-message {
+	height: 80px;
+	margin-bottom: 30px;
+	padding-top: 15px;
+
+	resize: none;
+}
+
+.modal-form__login-btn {
+	box-sizing: border-box;
+	width: 100%;
+	min-width: 260px;
+	height: 48px;
+
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 48px;
+	color: #fff;
+	text-transform: uppercase;
+
+	background-color: #e66969;
+	border: none;
+	cursor: pointer;
+}
